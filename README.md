@@ -1,15 +1,15 @@
 <div align="center">
 
-![QuantumOrb](assets/banner.png)
+![AIX AGNTfi](assets/banner.png)
 
-# QuantumOrb
+# AIX AGNTfi
 
-**A memecoin holder scanner for Solana.**<br>
-20 wallets can be 4 people. QuantumOrb shows who really holds a token.
+**AIX : AGNTfi — the AGNTfi terminal.**<br>
+20 wallets can be 4 people. AIX AGNTfi shows who really holds a token — and what it is worth trading.
 
-[**quantumorb.app**](https://quantumorb.app) · [**Telegram bot**](https://t.me/QuantumORB_bot) · [Every rule, in plain words](https://quantumorb.app/#how) · [Official token](#official-links-and-the-token)
+[**aixagentfi.app**](https://aixagentfi.app) · [**Telegram bot**](https://t.me/AIXAGNTfi_bot) · [Every rule, in plain words](https://aixagentfi.app/#how) · [Official token](#official-links-and-the-token) · [Сайт по-русски 🇷🇺](docs/RU.md)
 
-[![tests](https://github.com/QuantumOrb/QuantOrb/actions/workflows/test.yml/badge.svg)](https://github.com/QuantumOrb/QuantOrb/actions/workflows/test.yml)
+[![tests](https://github.com/aixagentfi/aix-agntfi/actions/workflows/test.yml/badge.svg)](https://github.com/aixagentfi/aix-agntfi/actions/workflows/test.yml)
 ![node](https://img.shields.io/badge/node-18%2B-5d94e8)
 ![python](https://img.shields.io/badge/python-3.11%2B-5d94e8)
 ![dependencies](https://img.shields.io/badge/dependencies-none-4fdf8f)
@@ -18,14 +18,14 @@
 
 ---
 
-Paste a token address on [quantumorb.app](https://quantumorb.app). In about ten seconds QuantumOrb reads
+Paste a token address on [aixagentfi.app](https://aixagentfi.app). In about ten seconds AIX AGNTfi reads
 the top holders from the chain and tells you who really holds the token, how far the price falls if they
 sell, and what the owner can still change. Alongside the scanner, a live Radar watches every new pump.fun
 launch and Shield checks who made each one; on a token page Guard goes deeper. The Telegram bot,
-[@QuantumORB_bot](https://t.me/QuantumORB_bot), brings the launches, the tokens, the devs and the wallets
+[@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot), brings the launches, the tokens, the devs and the wallets
 you follow to your chat.
 
-<p align="center"><img src="assets/screens/home.png" alt="QuantumOrb: the scanner" width="100%"></p>
+<p align="center"><img src="assets/screens/home.png" alt="AIX AGNTfi: the scanner" width="100%"></p>
 
 ## One scan, three answers
 
@@ -65,7 +65,7 @@ gives no score.
 | **Liquidity control** | Who holds the right to withdraw the pool, and how much of it |
 
 The score is a fixed, written set of rules, not a black box. Every weight, threshold and red flag is
-published on the site, [quantumorb.app/#how](https://quantumorb.app/#how), and rule by rule with the code in
+published on the site, [aixagentfi.app/#how](https://aixagentfi.app/#how), and rule by rule with the code in
 [`docs/scoring.md`](docs/scoring.md).
 
 <p align="center"><img src="assets/screens/rules.png" alt="How the score is built" width="100%"></p>
@@ -100,7 +100,7 @@ it is never a silent pass.
 
 ## The Telegram bot
 
-**[@QuantumORB_bot](https://t.me/QuantumORB_bot)** · free for everybody.
+**[@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot)** · free for everybody.
 The site tells you what a token is. The bot tells you when it changes.
 
 <p align="center"><img src="assets/screens/bot.png" alt="The Telegram bot on the site" width="100%"></p>
@@ -145,37 +145,38 @@ The messages below are the bot's own, on made-up tokens and wallets.
 
 ## On your phone
 
-<p align="center"><img src="assets/screens/mobile.png" alt="QuantumOrb on a phone" width="70%"></p>
+<p align="center"><img src="assets/screens/mobile.png" alt="AIX AGNTfi on a phone" width="70%"></p>
 
 ## Roadmap
 
-<p align="center"><img src="assets/screens/roadmap.png" alt="QuantumOrb roadmap" width="100%"></p>
+<p align="center"><img src="assets/screens/roadmap.png" alt="AIX AGNTfi roadmap" width="100%"></p>
 
 | # | Step | | Status |
 |---|---|---|---|
 | 1 | **GitHub** | This repository: docs, changelog and issue tracker in one public place | ✅ Done |
 | 2 | **Solana Scanner Live** | Top 20 holders, first 20 buyers, linked wallets and a 0–100 risk score for any pump.fun token | ✅ Done |
 | 3 | **X Account** | Updates, scan breakdowns and release news | ✅ Done |
-| 4 | **Token Launch** | The QuantumOrb token launches on pump.fun | ✅ Done |
+| 4 | **Token Launch** | The AIX AGNTfi token launches on pump.fun | ✅ Done |
 | 5 | **Telegram Bot** | Radar alerts by your filters, watched tokens, follow a dev or any wallet | ✅ Done |
 | 6 | **DexScreener Profile** | Verified token profile: logo, links and description | ✅ Done |
 | 7 | **Open Source** | The scanner's code goes public, so anyone can check how the score is calculated | ✅ Done |
 | 8 | **Token Burns** | Part of the token supply is burned | ✅ Done |
-| 9 | **Holder Airdrops** | Airdrops for QuantumOrb token holders | ✅ Done |
-| 10 | **6 New Languages** | The site in six more languages besides English | 🔵 Up next |
-| 11 | **Scanner in Telegram** | Paste a contract into the bot and get the full scan report without opening the site | Planned |
-| 12 | **Faster Scans** | Shorter scan times on tokens with large, busy holder lists | Planned |
-| 13 | **Higher Free Limits** | More free scans per day | Planned |
-| 14 | **Rug Risk Alerts** | An early warning when a scanned token starts to look like a rug: the dev or a linked cluster dumping, tokens pulled into one wallet, LP withdrawn | Planned |
-| 15 | **Operator Memory** | Clusters remembered across tokens: where an operator held before and how those tokens ended | Planned |
-| 16 | **Rug Replay** | A step-by-step replay of a past rug: who bought first, how the wallets were linked, who sold and when | Planned |
-| 17 | **Smarter Radar** | New launches on the Radar arrive already scanned, with their score | Planned |
-| 18 | **Pro Subscription** | No scan limits, and a live list of fresh tokens scoring 90+ in the bot | Planned |
-| 19 | **New Chains** | The scanner on Robinhood Chain, Base and BNB Chain | Planned |
+| 9 | **Holder Airdrops** | Airdrops for AIX AGNTfi token holders | ✅ Done |
+| 10 | **6 New Languages** | The site in six more languages besides English — 🇷🇺 **Russian is live now**, the simulator ships with an instant EN/RU switch | 🔵 In progress |
+| 11 | **AGNTfi Simulator** | Core Model: Monte-Carlo p10–p90 fan, TREND/FLAT regimes, paper portfolio with TP/SL/horizon sliders, live WebSocket tape, CSV export | ✅ Done ([`sim/`](sim)) |
+| 12 | **Scanner in Telegram** | Paste a contract into the bot and get the full scan report without opening the site | Planned |
+| 13 | **Faster Scans** | Shorter scan times on tokens with large, busy holder lists | Planned |
+| 14 | **Higher Free Limits** | More free scans per day | Planned |
+| 15 | **Rug Risk Alerts** | An early warning when a scanned token starts to look like a rug: the dev or a linked cluster dumping, tokens pulled into one wallet, LP withdrawn | Planned |
+| 16 | **Operator Memory** | Clusters remembered across tokens: where an operator held before and how those tokens ended | Planned |
+| 17 | **Rug Replay** | A step-by-step replay of a past rug: who bought first, how the wallets were linked, who sold and when | Planned |
+| 18 | **Smarter Radar** | New launches on the Radar arrive already scanned, with their score | Planned |
+| 19 | **Pro Subscription** | No scan limits, and a live list of fresh tokens scoring 90+ in the bot | Planned |
+| 20 | **New Chains** | The scanner on Robinhood Chain, Base and BNB Chain | Planned |
 
 ## Open code
 
-About a tenth of QuantumOrb's code is open here: everything that decides a verdict, and the parts that read
+About a tenth of AIX AGNTfi's code is open here: everything that decides a verdict, and the parts that read
 pump.fun and turn market data into the figures on a token page. Each file is the server's or the bot's own
 code, not a rewrite, and the tests run it on the server's own results and on real chain addresses.
 
@@ -184,19 +185,20 @@ code, not a rewrite, and the tests run it on the server's own results and on rea
 | [`rules/`](rules) | JavaScript | The score, operators, red flags, caps, the sell scenario, Guard's three checks and Shield's rule |
 | [`chain/`](chain) | JavaScript | How the server reads pump.fun and Solana: program ids, derived addresses, curve, pool and metadata layouts, a transaction reader |
 | [`market/`](market) | JavaScript | A token page's market figures: which pools belong to the token, which one sets the price, market cap kept apart from FDV, N/A instead of $0 |
+| [`sim/`](sim) | JavaScript + HTML | The AGNTfi simulator: Monte-Carlo p10–p90 fan continued from the 7-day close, TREND / FLAT regimes by rolling volatility, the paper portfolio with TP / SL / horizon sliders, the live WebSocket tape, CSV export — and the EN/RU page itself |
 | [`bot/`](bot) | Python | Every message the bot sends about a token, Shield's rule, and the bot's own pump.fun curve reader |
 
 ### Check the score yourself
 
 ```bash
-git clone https://github.com/QuantumOrb/QuantOrb && cd QuantOrb
+git clone https://github.com/aixagentfi/aix-agntfi && cd aix-agntfi
 npm test                                        # Node 18+, no dependencies
 npm run test:bot                                # Python 3.11+, standard library only
 node rules/cli.js examples/site-example.json    # the example token on the home page
 ```
 
 ```
-The example token on the QuantumOrb home page · $GRUMPKIN
+The example token on the AIX AGNTfi home page · $GRUMPKIN
 20 wallets → 13 operators, biggest holds 41.1% of float, could move price −67% if sold
 
 score 12 / 100 · DANGER
@@ -219,7 +221,7 @@ Rule by rule: [`docs/scoring.md`](docs/scoring.md) · [`docs/guard.md`](docs/gua
 Which accounts and transactions a scan asks for, in what order and under what budget; finding the links
 between wallets; the launch stream; the Radar; the site and its API; the bot's commands, alert loops and
 database; every data source's keys, limits and fallbacks; the servers. That is what it takes to run
-QuantumOrb, and it is not in this repository. [`docs/architecture.md`](docs/architecture.md) shows where
+AIX AGNTfi, and it is not in this repository. [`docs/architecture.md`](docs/architecture.md) shows where
 the line is.
 
 ## What is in this repository
@@ -229,10 +231,11 @@ the line is.
 | [`rules/`](rules) | The open rules, and a command that prints a verdict |
 | [`chain/`](chain) | The pump.fun and Solana reader |
 | [`market/`](market) | The token page's market figures |
+| [`sim/`](sim) | The AGNTfi simulator: Monte-Carlo fan, regimes, paper portfolio, live tape, the EN/RU page |
 | [`bot/`](bot) | The bot's messages, Shield and curve reader, with their tests |
 | [`examples/`](examples) | Scan inputs with the verdict each must get: the site's example token, scans the server made, one file per rule |
 | [`test/`](test) | `npm test`: every rule at its edges, the examples against the server's results, the chain reader on real addresses, the market figures on real market data |
-| [`docs/`](docs) | How QuantumOrb fits together, the score rule by rule, Guard and Shield |
+| [`docs/`](docs) | How AIX AGNTfi fits together, the score rule by rule, Guard and Shield |
 | [`assets/`](assets) | The banner and the screens above |
 | [`.github/`](.github) | Issue templates and the test workflow |
 
@@ -242,11 +245,11 @@ What changed and when: [`CHANGELOG.md`](CHANGELOG.md).
 
 | | |
 |---|---|
-| Site | [quantumorb.app](https://quantumorb.app) |
-| Telegram bot | [@QuantumORB_bot](https://t.me/QuantumORB_bot) |
-| Source and issues | [github.com/QuantumOrb/QuantOrb](https://github.com/QuantumOrb/QuantOrb) |
+| Site | [aixagentfi.app](https://aixagentfi.app) |
+| Telegram bot | [@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot) |
+| Source and issues | [github.com/aixagentfi/aix-agntfi](https://github.com/aixagentfi/aix-agntfi) |
 
-**The QuantumOrb token** on Solana, launched on pump.fun. The only official contract address:
+**The AIX AGNTfi token** on Solana, launched on pump.fun. The only official contract address:
 
 ```
 EiN69j8KVE5uYKheVkeVwptEVwRP5JtDhJDMGm1ppump
@@ -257,14 +260,14 @@ EiN69j8KVE5uYKheVkeVwptEVwRP5JtDhJDMGm1ppump
 [Solscan](https://solscan.io/token/EiN69j8KVE5uYKheVkeVwptEVwRP5JtDhJDMGm1ppump)
 
 > [!WARNING]
-> Any other contract that calls itself QuantumOrb is not ours. Check the address character by character.
-> QuantumOrb never asks for a private key, a seed phrase or funds.
+> Any other contract that calls itself AIX AGNTfi is not ours. Check the address character by character.
+> AIX AGNTfi never asks for a private key, a seed phrase or funds.
 
 <sub>The token is not an investment product and nothing here is financial advice. Do your own research.</sub>
 
 ## Limits
 
-- QuantumOrb only reads public on-chain data. It never asks for keys or seed phrases and never touches funds.
+- AIX AGNTfi only reads public on-chain data. It never asks for keys or seed phrases and never touches funds.
 - It sees wallets, not people. Two wallets of one person with no on-chain connection look independent.
 - A CLEAN score is not a promise. Liquidity, sentiment and the dev's off-chain plans are outside what it can read.
 - Five new scans a day per person. Opening a report again, or reloading the page during a scan, never counts.
@@ -275,4 +278,4 @@ EiN69j8KVE5uYKheVkeVwptEVwRP5JtDhJDMGm1ppump
 
 <sub>The screens of the site come from a development build running on a simulated chain, and the bot's
 messages are shown on made-up data, so every token, wallet and figure on them is made up.
-Found a bug or have an idea? <a href="https://github.com/QuantumOrb/QuantOrb/issues">Open an issue</a>. © 2026 QuantumOrb. All rights reserved.</sub>
+Found a bug or have an idea? <a href="https://github.com/aixagentfi/aix-agntfi/issues">Open an issue</a>. © 2026 AIX AGNTfi. All rights reserved.</sub>

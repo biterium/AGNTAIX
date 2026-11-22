@@ -1,6 +1,6 @@
 # bot/
 
-The open parts of the QuantumOrb Telegram bot, [@QuantumORB_bot](https://t.me/QuantumORB_bot). Python 3.11+,
+The open parts of the AIX AGNTfi Telegram bot, [@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot). Python 3.11+,
 standard library only. The code is the bot's own, unchanged; the comments are translated to English.
 
 | | |

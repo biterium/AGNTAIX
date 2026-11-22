@@ -1,12 +1,29 @@
 # Changelog
 
+## 23 November 2026 · AIX : AGNTfi — the rebrand, Russian and the simulator
+
+- **Rebrand: QuantumOrb is now AIX : AGNTfi.** The scanner keeps every rule, threshold and verdict; the name,
+  the site links and the bot handle change. Old links redirect.
+- **Russian (🇷🇺) is live** in the new terminal with an instant EN/RU switch; a Russian README summary is in
+  [`docs/RU.md`](docs/RU.md). Five more languages follow.
+- **The AGNTfi simulator** ([`sim/`](sim)), open code with tests (`test/sim.test.js`):
+  - **Live tape over WebSocket** — real trades from Binance's public stream; CoinGecko's WebSocket needs a paid
+    plan, so its key is used only for REST `/market_chart` history. Keys come from the environment, never the repo.
+  - **Market regimes** — TREND / FLAT by rolling realized volatility, drawn under the Core Model chart.
+  - **Paper portfolio** — trades really open and close by TP / SL / horizon; capital and equity are marked.
+    The TP / SL / horizon sliders recompute the whole simulation instantly.
+  - **Coin choice** through the list, a click on the running tape or a click on a decision card.
+  - **CSV export** of decisions and closed trades, **pause** of the feed, **portfolio reset**.
+  - **Monte-Carlo fan p10–p90** continued from the 7-day price on the Core Model chart, with VaR 95% and P(up).
+- Next up: backtests through `/market_chart`, Telegram alerts on TRADE, portfolio-wide VaR and correlations.
+
 ## 5 November 2026 · the full release
 
-- **The Telegram bot is open:** [@QuantumORB_bot](https://t.me/QuantumORB_bot). New launches that pass your
+- **The Telegram bot is open:** [@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot). New launches that pass your
   filters and Shield, tokens you watch, wallets you follow, devs who launch again, and any token on demand.
   Free for everybody. The site links to it everywhere: the header, token pages (watch a token, follow its
   dev or a wallet), the Radar (send your filters to the bot).
-- **The QuantumOrb token** on Solana. The only official contract:
+- **The AIX AGNTfi token** on Solana. The only official contract:
   `EiN69j8KVE5uYKheVkeVwptEVwRP5JtDhJDMGm1ppump`. Any other is not ours.
 - **A roadmap** at the bottom of the home page and in the [README](README.md#roadmap): nine steps done,
   six new languages next, then the scanner in Telegram and more.
@@ -22,9 +39,9 @@
 
 ## 3 November 2026 · the site is public
 
-- QuantumOrb is live at **[quantumorb.app](https://quantumorb.app)**: the holder scanner, the Radar with
+- AIX AGNTfi is live at **[aixagentfi.app](https://aixagentfi.app)**: the holder scanner, the Radar with
   Shield on every launch, and token pages with Guard. Every rule is on
-  [quantumorb.app/#how](https://quantumorb.app/#how).
+  [aixagentfi.app/#how](https://aixagentfi.app/#how).
 - The Telegram bot followed on 5 November.
 
 ## 1 November 2026 · the repository follows the new site and bot
@@ -73,7 +90,7 @@
 
 ## 22 October 2026 · the repository starts over
 
-- This repository is now the public page of the new QuantumOrb: the holder scanner, the Radar, Guard and
+- This repository is now the public page of the new AIX AGNTfi: the holder scanner, the Radar, Guard and
   the Telegram bot (then still in testing).
 - **The rules are open.** [`rules/`](rules) holds the code that turns a scan into a verdict: the score,
   operators, red flags, caps, the sell scenario and Guard's three checks, with tests and example tokens.

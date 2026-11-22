@@ -1,7 +1,7 @@
 'use strict';
 /* Every example in examples/ carries the verdict it must get. Nine of them were produced by the closed
    server itself (the site's example token and eight scans on the simulated chain), so passing here means
-   the open rules give the same answer as the QuantumOrb server. */
+   the open rules give the same answer as the AIX AGNTfi server. */
 const test = require('node:test');
 const assert = require('node:assert');
 const fs = require('fs');

@@ -1,5 +1,5 @@
 'use strict';
-/* QuantumOrb's open rules: the part of the scanner that turns what it read into a verdict, Guard's checks on a
+/* AIX AGNTfi's open rules: the part of the scanner that turns what it read into a verdict, Guard's checks on a
    token page, and Shield's checks on every launch. */
 const { score, part, impact, WEIGHTS, SCALE } = require('./score');
 const { operators } = require('./operators');

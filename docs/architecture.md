@@ -1,6 +1,6 @@
-# How QuantumOrb fits together
+# How AIX AGNTfi fits together
 
-QuantumOrb is one server, one site and one Telegram bot, [@QuantumORB_bot](https://t.me/QuantumORB_bot).
+AIX AGNTfi is one server, one site and one Telegram bot, [@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot).
 The server watches every new pump.fun launch, checks who made it, and runs scans on demand; the site reads
 from it. The bot follows the same launches with the same Shield rule and sends what you asked for to
 your chat.
@@ -15,7 +15,7 @@ flowchart LR
   subgraph paid[Dedicated RPC]
     HR[Solana chain · accounts and transactions]
   end
-  subgraph server[QuantumOrb server · closed]
+  subgraph server[AIX AGNTfi server · closed]
     S[launches · curves · metadata] --> SH{Shield}
     SH --> RD[Radar · the last 1,000 launches]
     Q[scan queue] --> RE[read the holders] --> LK[find the links]
@@ -39,12 +39,12 @@ flowchart LR
   HR --> RE
   HR --> TP
   MD --> TP
-  SC --> W[quantumorb.app]
+  SC --> W[aixagentfi.app]
   RD --> W
   S -.-> CR
   RE -.-> CR
   TP -.-> MK
-  subgraph bot[Telegram bot · @QuantumORB_bot · closed]
+  subgraph bot[Telegram bot · @AIXAGNTfi_bot · closed]
     BS[launches · curves · creators] --> BSH{Shield}
     BSH --> AL[alerts · watch · follow · dev · token]
     subgraph bopen[bot/ · open]
