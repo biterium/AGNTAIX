@@ -1,6 +1,6 @@
 # chain/
 
-How the QuantumOrb server reads pump.fun and Solana: program ids, derived addresses, account layouts and a
+How the AIX AGNTfi server reads pump.fun and Solana: program ids, derived addresses, account layouts and a
 transaction reader. The server's own `chain/solana.js` and `lib/util.js`, unchanged apart from one
 `require()` line.
 

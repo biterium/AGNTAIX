@@ -1,18 +1,18 @@
 name: Bug report
-description: Something on quantumorb.app or in this repository looks wrong or does not work
+description: Something on aixagentfi.app or in this repository looks wrong or does not work
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time. A security problem? Please do not describe it here: see SECURITY.md.
-        QuantumOrb never asks for keys, seed phrases or funds.
+        AIX AGNTfi never asks for keys, seed phrases or funds.
   - type: input
     id: where
     attributes:
       label: Where
       description: The page, the token address you scanned, or the file in this repository
-      placeholder: https://quantumorb.app/#t-…, a token address, or rules/score.js
+      placeholder: https://aixagentfi.app/#t-…, a token address, or rules/score.js
     validations:
       required: true
   - type: textarea

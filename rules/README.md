@@ -1,8 +1,8 @@
 # rules/
 
-The part of the QuantumOrb scanner that turns what it read into a verdict: the score, the operators,
+The part of the AIX AGNTfi scanner that turns what it read into a verdict: the score, the operators,
 Guard's three checks on a token page, and Shield's rule on every launch. These files are the server's own
-code, not a rewrite. The function bodies are identical to what runs on [quantumorb.app](https://quantumorb.app);
+code, not a rewrite. The function bodies are identical to what runs on [aixagentfi.app](https://aixagentfi.app);
 only the `require()` lines point here instead. The one exception is Shield's `creatorCheck()`, which keeps
 what happens once a creator's record is known and leaves out the lookup on the chain.
 

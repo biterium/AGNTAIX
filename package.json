@@ -1,8 +1,8 @@
 {
-  "name": "quantumorb-rules",
+  "name": "aix-agntfi",
   "version": "1.0.0",
   "private": true,
-  "description": "QuantumOrb's open code: the rules behind every verdict, the pump.fun chain reader and the token-page market figures (JavaScript), and the Telegram bot's messages, Shield and chain reader (Python), with tests.",
+  "description": "AIX AGNTfi's open code: the rules behind every verdict, the pump.fun chain reader and the token-page market figures (JavaScript), and the Telegram bot's messages, Shield and chain reader (Python), with tests.",
   "main": "rules/index.js",
   "license": "SEE LICENSE IN LICENSE",
   "engines": {

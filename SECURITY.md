@@ -1,17 +1,17 @@
 # Security
 
-QuantumOrb never asks anyone for a private key, a seed phrase or funds - not on the site, not in the
-bot, not in a message. Anything that does is not QuantumOrb.
+AIX AGNTfi never asks anyone for a private key, a seed phrase or funds - not on the site, not in the
+bot, not in a message. Anything that does is not AIX AGNTfi.
 
 The official links are only these:
 
 | | |
 |---|---|
-| Site | [quantumorb.app](https://quantumorb.app) |
-| Telegram bot | [@QuantumORB_bot](https://t.me/QuantumORB_bot) |
+| Site | [aixagentfi.app](https://aixagentfi.app) |
+| Telegram bot | [@AIXAGNTfi_bot](https://t.me/AIXAGNTfi_bot) |
 | Token contract (Solana) | `EiN69j8KVE5uYKheVkeVwptEVwRP5JtDhJDMGm1ppump` |
 
-Any other site, bot or contract that calls itself QuantumOrb is not ours.
+Any other site, bot or contract that calls itself AIX AGNTfi is not ours.
 
 ## Reporting a vulnerability
 
